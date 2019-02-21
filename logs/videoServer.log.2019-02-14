@@ -1,0 +1,428 @@
+[2019-02-14 15:33:02 238 ERROR] [com.inrevo.model.StreamGobblerForError] ffmpeg version N-92981-g51978aefe8 Copyright (c) 2000-2019 the FFmpeg developers
+[2019-02-14 15:33:02 238 ERROR] [com.inrevo.model.StreamGobblerForError]   built with gcc 8.2.1 (GCC) 20181201
+[2019-02-14 15:33:02 238 ERROR] [com.inrevo.model.StreamGobblerForError]   configuration: --enable-gpl --enable-version3 --enable-sdl2 --enable-fontconfig --enable-gnutls --enable-iconv --enable-libass --enable-libbluray --enable-libfreetype --enable-libmp3lame --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-libopus --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libtheora --enable-libtwolame --enable-libvpx --enable-libwavpack --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libzimg --enable-lzma --enable-zlib --enable-gmp --enable-libvidstab --enable-libvorbis --enable-libvo-amrwbenc --enable-libmysofa --enable-libspeex --enable-libxvid --enable-libaom --enable-libmfx --enable-amf --enable-ffnvcodec --enable-cuvid --enable-d3d11va --enable-nvenc --enable-nvdec --enable-dxva2 --enable-avisynth --enable-libopenmpt
+[2019-02-14 15:33:02 238 ERROR] [com.inrevo.model.StreamGobblerForError]   libavutil      56. 25.100 / 56. 25.100
+[2019-02-14 15:33:02 238 ERROR] [com.inrevo.model.StreamGobblerForError]   libavcodec     58. 44.100 / 58. 44.100
+[2019-02-14 15:33:02 238 ERROR] [com.inrevo.model.StreamGobblerForError]   libavformat    58. 26.100 / 58. 26.100
+[2019-02-14 15:33:02 238 ERROR] [com.inrevo.model.StreamGobblerForError]   libavdevice    58.  6.101 / 58.  6.101
+[2019-02-14 15:33:02 238 ERROR] [com.inrevo.model.StreamGobblerForError]   libavfilter     7. 48.100 /  7. 48.100
+[2019-02-14 15:33:02 238 ERROR] [com.inrevo.model.StreamGobblerForError]   libswscale      5.  4.100 /  5.  4.100
+[2019-02-14 15:33:02 238 ERROR] [com.inrevo.model.StreamGobblerForError]   libswresample   3.  4.100 /  3.  4.100
+[2019-02-14 15:33:02 238 ERROR] [com.inrevo.model.StreamGobblerForError]   libpostproc    55.  4.100 / 55.  4.100
+[2019-02-14 15:33:03 174 ERROR] [com.inrevo.model.StreamGobblerForError] [udp @ 000000000043ce80] 'circular_buffer_size' option was set but it is not supported on this build (pthread support is required)
+[2019-02-14 15:33:03 174 ERROR] [com.inrevo.model.StreamGobblerForError] [udp @ 000000000044d180] 'circular_buffer_size' option was set but it is not supported on this build (pthread support is required)
+[2019-02-14 15:33:03 676 ERROR] [com.inrevo.model.StreamGobblerForError] [udp @ 000000000045da00] 'circular_buffer_size' option was set but it is not supported on this build (pthread support is required)
+[2019-02-14 15:33:03 676 ERROR] [com.inrevo.model.StreamGobblerForError] [udp @ 000000000046dcc0] 'circular_buffer_size' option was set but it is not supported on this build (pthread support is required)
+[2019-02-14 15:33:06 046 ERROR] [com.inrevo.model.StreamGobblerForError] Input #0, rtsp, from 'rtsp://184.72.239.149/vod/mp4://BigBuckBunny_175k.mov':
+[2019-02-14 15:33:06 046 ERROR] [com.inrevo.model.StreamGobblerForError]   Metadata:
+[2019-02-14 15:33:06 046 ERROR] [com.inrevo.model.StreamGobblerForError]     title           : BigBuckBunny_175k.mov
+[2019-02-14 15:33:06 046 ERROR] [com.inrevo.model.StreamGobblerForError]   Duration: 00:09:56.46, start: 0.000000, bitrate: N/A
+[2019-02-14 15:33:06 046 ERROR] [com.inrevo.model.StreamGobblerForError]     Stream #0:0: Audio: aac (LC), 48000 Hz, stereo, fltp
+[2019-02-14 15:33:06 046 ERROR] [com.inrevo.model.StreamGobblerForError]     Stream #0:1: Video: h264 (Constrained Baseline), yuv420p(progressive), 240x160, 24 fps, 24 tbr, 90k tbn, 48 tbc
+[2019-02-14 15:33:16 375 ERROR] [com.inrevo.model.StreamGobblerForError] rtmp://localhost:1901/hls/monitor1: I/O error
+[2019-02-14 15:34:41 052 ERROR] [com.inrevo.model.StreamGobblerForError] ffmpeg version N-92981-g51978aefe8 Copyright (c) 2000-2019 the FFmpeg developers
+[2019-02-14 15:34:41 053 ERROR] [com.inrevo.model.StreamGobblerForError]   built with gcc 8.2.1 (GCC) 20181201
+[2019-02-14 15:34:41 054 ERROR] [com.inrevo.model.StreamGobblerForError]   configuration: --enable-gpl --enable-version3 --enable-sdl2 --enable-fontconfig --enable-gnutls --enable-iconv --enable-libass --enable-libbluray --enable-libfreetype --enable-libmp3lame --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-libopus --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libtheora --enable-libtwolame --enable-libvpx --enable-libwavpack --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libzimg --enable-lzma --enable-zlib --enable-gmp --enable-libvidstab --enable-libvorbis --enable-libvo-amrwbenc --enable-libmysofa --enable-libspeex --enable-libxvid --enable-libaom --enable-libmfx --enable-amf --enable-ffnvcodec --enable-cuvid --enable-d3d11va --enable-nvenc --enable-nvdec --enable-dxva2 --enable-avisynth --enable-libopenmpt
+[2019-02-14 15:34:41 055 ERROR] [com.inrevo.model.StreamGobblerForError]   libavutil      56. 25.100 / 56. 25.100
+[2019-02-14 15:34:41 065 ERROR] [com.inrevo.model.StreamGobblerForError]   libavcodec     58. 44.100 / 58. 44.100
+[2019-02-14 15:34:41 066 ERROR] [com.inrevo.model.StreamGobblerForError]   libavformat    58. 26.100 / 58. 26.100
+[2019-02-14 15:34:41 066 ERROR] [com.inrevo.model.StreamGobblerForError]   libavdevice    58.  6.101 / 58.  6.101
+[2019-02-14 15:34:41 066 ERROR] [com.inrevo.model.StreamGobblerForError]   libavfilter     7. 48.100 /  7. 48.100
+[2019-02-14 15:34:41 067 ERROR] [com.inrevo.model.StreamGobblerForError]   libswscale      5.  4.100 /  5.  4.100
+[2019-02-14 15:34:41 067 ERROR] [com.inrevo.model.StreamGobblerForError]   libswresample   3.  4.100 /  3.  4.100
+[2019-02-14 15:34:41 067 ERROR] [com.inrevo.model.StreamGobblerForError]   libpostproc    55.  4.100 / 55.  4.100
+[2019-02-14 15:34:41 965 ERROR] [com.inrevo.model.StreamGobblerForError] [udp @ 00000000004365c0] 'circular_buffer_size' option was set but it is not supported on this build (pthread support is required)
+[2019-02-14 15:34:41 965 ERROR] [com.inrevo.model.StreamGobblerForError] [udp @ 000000000044d500] 'circular_buffer_size' option was set but it is not supported on this build (pthread support is required)
+[2019-02-14 15:34:42 441 ERROR] [com.inrevo.model.StreamGobblerForError] [udp @ 000000000045dcc0] 'circular_buffer_size' option was set but it is not supported on this build (pthread support is required)
+[2019-02-14 15:34:42 441 ERROR] [com.inrevo.model.StreamGobblerForError] [udp @ 000000000046df80] 'circular_buffer_size' option was set but it is not supported on this build (pthread support is required)
+[2019-02-14 15:34:44 760 ERROR] [com.inrevo.model.StreamGobblerForError] Input #0, rtsp, from 'rtsp://184.72.239.149/vod/mp4://BigBuckBunny_175k.mov':
+[2019-02-14 15:34:44 761 ERROR] [com.inrevo.model.StreamGobblerForError]   Metadata:
+[2019-02-14 15:34:44 761 ERROR] [com.inrevo.model.StreamGobblerForError]     title           : BigBuckBunny_175k.mov
+[2019-02-14 15:34:44 762 ERROR] [com.inrevo.model.StreamGobblerForError]   Duration: 00:09:56.46, start: 0.000000, bitrate: N/A
+[2019-02-14 15:34:44 763 ERROR] [com.inrevo.model.StreamGobblerForError]     Stream #0:0: Audio: aac (LC), 48000 Hz, stereo, fltp
+[2019-02-14 15:34:44 763 ERROR] [com.inrevo.model.StreamGobblerForError]     Stream #0:1: Video: h264 (Constrained Baseline), yuv420p(progressive), 240x160, 24 fps, 24 tbr, 90k tbn, 48 tbc
+[2019-02-14 15:34:44 764 ERROR] [com.inrevo.model.StreamGobblerForError] [NULL @ 00000000030e6140] Unable to find a suitable output format for '–s'
+[2019-02-14 15:34:44 764 ERROR] [com.inrevo.model.StreamGobblerForError] –s: Invalid argument
+[2019-02-14 15:35:16 283 ERROR] [com.inrevo.model.StreamGobblerForError] ffmpeg version N-92981-g51978aefe8 Copyright (c) 2000-2019 the FFmpeg developers
+[2019-02-14 15:35:16 284 ERROR] [com.inrevo.model.StreamGobblerForError]   built with gcc 8.2.1 (GCC) 20181201
+[2019-02-14 15:35:16 285 ERROR] [com.inrevo.model.StreamGobblerForError]   configuration: --enable-gpl --enable-version3 --enable-sdl2 --enable-fontconfig --enable-gnutls --enable-iconv --enable-libass --enable-libbluray --enable-libfreetype --enable-libmp3lame --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-libopus --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libtheora --enable-libtwolame --enable-libvpx --enable-libwavpack --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libzimg --enable-lzma --enable-zlib --enable-gmp --enable-libvidstab --enable-libvorbis --enable-libvo-amrwbenc --enable-libmysofa --enable-libspeex --enable-libxvid --enable-libaom --enable-libmfx --enable-amf --enable-ffnvcodec --enable-cuvid --enable-d3d11va --enable-nvenc --enable-nvdec --enable-dxva2 --enable-avisynth --enable-libopenmpt
+[2019-02-14 15:35:16 286 ERROR] [com.inrevo.model.StreamGobblerForError]   libavutil      56. 25.100 / 56. 25.100
+[2019-02-14 15:35:16 287 ERROR] [com.inrevo.model.StreamGobblerForError]   libavcodec     58. 44.100 / 58. 44.100
+[2019-02-14 15:35:16 288 ERROR] [com.inrevo.model.StreamGobblerForError]   libavformat    58. 26.100 / 58. 26.100
+[2019-02-14 15:35:16 288 ERROR] [com.inrevo.model.StreamGobblerForError]   libavdevice    58.  6.101 / 58.  6.101
+[2019-02-14 15:35:16 288 ERROR] [com.inrevo.model.StreamGobblerForError]   libavfilter     7. 48.100 /  7. 48.100
+[2019-02-14 15:35:16 290 ERROR] [com.inrevo.model.StreamGobblerForError]   libswscale      5.  4.100 /  5.  4.100
+[2019-02-14 15:35:16 291 ERROR] [com.inrevo.model.StreamGobblerForError]   libswresample   3.  4.100 /  3.  4.100
+[2019-02-14 15:35:16 292 ERROR] [com.inrevo.model.StreamGobblerForError]   libpostproc    55.  4.100 / 55.  4.100
+[2019-02-14 15:35:17 496 ERROR] [com.inrevo.model.StreamGobblerForError] [udp @ 0000000000346440] 'circular_buffer_size' option was set but it is not supported on this build (pthread support is required)
+[2019-02-14 15:35:17 497 ERROR] [com.inrevo.model.StreamGobblerForError] [udp @ 000000000035d380] 'circular_buffer_size' option was set but it is not supported on this build (pthread support is required)
+[2019-02-14 15:35:17 991 ERROR] [com.inrevo.model.StreamGobblerForError] [udp @ 000000000036db40] 'circular_buffer_size' option was set but it is not supported on this build (pthread support is required)
+[2019-02-14 15:35:17 991 ERROR] [com.inrevo.model.StreamGobblerForError] [udp @ 000000000037de00] 'circular_buffer_size' option was set but it is not supported on this build (pthread support is required)
+[2019-02-14 15:35:20 317 ERROR] [com.inrevo.model.StreamGobblerForError] Input #0, rtsp, from 'rtsp://184.72.239.149/vod/mp4://BigBuckBunny_175k.mov':
+[2019-02-14 15:35:20 317 ERROR] [com.inrevo.model.StreamGobblerForError]   Metadata:
+[2019-02-14 15:35:20 317 ERROR] [com.inrevo.model.StreamGobblerForError]     title           : BigBuckBunny_175k.mov
+[2019-02-14 15:35:20 327 ERROR] [com.inrevo.model.StreamGobblerForError]   Duration: 00:09:56.46, start: 0.000000, bitrate: N/A
+[2019-02-14 15:35:20 327 ERROR] [com.inrevo.model.StreamGobblerForError]     Stream #0:0: Audio: aac (LC), 48000 Hz, stereo, fltp
+[2019-02-14 15:35:20 327 ERROR] [com.inrevo.model.StreamGobblerForError]     Stream #0:1: Video: h264 (Constrained Baseline), yuv420p(progressive), 240x160, 24 fps, 24 tbr, 90k tbn, 48 tbc
+[2019-02-14 15:35:20 337 ERROR] [com.inrevo.model.StreamGobblerForError] [NULL @ 00000000033d08c0] Unable to find a suitable output format for '352*278'
+[2019-02-14 15:35:20 337 ERROR] [com.inrevo.model.StreamGobblerForError] 352*278: Invalid argument
+[2019-02-14 15:36:45 105 ERROR] [com.inrevo.model.StreamGobblerForError] ffmpeg version N-92981-g51978aefe8 Copyright (c) 2000-2019 the FFmpeg developers
+[2019-02-14 15:36:45 105 ERROR] [com.inrevo.model.StreamGobblerForError]   built with gcc 8.2.1 (GCC) 20181201
+[2019-02-14 15:36:45 105 ERROR] [com.inrevo.model.StreamGobblerForError]   configuration: --enable-gpl --enable-version3 --enable-sdl2 --enable-fontconfig --enable-gnutls --enable-iconv --enable-libass --enable-libbluray --enable-libfreetype --enable-libmp3lame --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-libopus --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libtheora --enable-libtwolame --enable-libvpx --enable-libwavpack --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libzimg --enable-lzma --enable-zlib --enable-gmp --enable-libvidstab --enable-libvorbis --enable-libvo-amrwbenc --enable-libmysofa --enable-libspeex --enable-libxvid --enable-libaom --enable-libmfx --enable-amf --enable-ffnvcodec --enable-cuvid --enable-d3d11va --enable-nvenc --enable-nvdec --enable-dxva2 --enable-avisynth --enable-libopenmpt
+[2019-02-14 15:36:45 105 ERROR] [com.inrevo.model.StreamGobblerForError]   libavutil      56. 25.100 / 56. 25.100
+[2019-02-14 15:36:45 105 ERROR] [com.inrevo.model.StreamGobblerForError]   libavcodec     58. 44.100 / 58. 44.100
+[2019-02-14 15:36:45 105 ERROR] [com.inrevo.model.StreamGobblerForError]   libavformat    58. 26.100 / 58. 26.100
+[2019-02-14 15:36:45 105 ERROR] [com.inrevo.model.StreamGobblerForError]   libavdevice    58.  6.101 / 58.  6.101
+[2019-02-14 15:36:45 105 ERROR] [com.inrevo.model.StreamGobblerForError]   libavfilter     7. 48.100 /  7. 48.100
+[2019-02-14 15:36:45 105 ERROR] [com.inrevo.model.StreamGobblerForError]   libswscale      5.  4.100 /  5.  4.100
+[2019-02-14 15:36:45 105 ERROR] [com.inrevo.model.StreamGobblerForError]   libswresample   3.  4.100 /  3.  4.100
+[2019-02-14 15:36:45 105 ERROR] [com.inrevo.model.StreamGobblerForError]   libpostproc    55.  4.100 / 55.  4.100
+[2019-02-14 15:36:46 601 ERROR] [com.inrevo.model.StreamGobblerForError] [udp @ 0000000000626440] 'circular_buffer_size' option was set but it is not supported on this build (pthread support is required)
+[2019-02-14 15:36:46 601 ERROR] [com.inrevo.model.StreamGobblerForError] [udp @ 000000000063d380] 'circular_buffer_size' option was set but it is not supported on this build (pthread support is required)
+[2019-02-14 15:36:47 103 ERROR] [com.inrevo.model.StreamGobblerForError] [udp @ 000000000064db40] 'circular_buffer_size' option was set but it is not supported on this build (pthread support is required)
+[2019-02-14 15:36:47 103 ERROR] [com.inrevo.model.StreamGobblerForError] [udp @ 000000000065de00] 'circular_buffer_size' option was set but it is not supported on this build (pthread support is required)
+[2019-02-14 15:36:49 426 ERROR] [com.inrevo.model.StreamGobblerForError] Input #0, rtsp, from 'rtsp://184.72.239.149/vod/mp4://BigBuckBunny_175k.mov':
+[2019-02-14 15:36:49 426 ERROR] [com.inrevo.model.StreamGobblerForError]   Metadata:
+[2019-02-14 15:36:49 426 ERROR] [com.inrevo.model.StreamGobblerForError]     title           : BigBuckBunny_175k.mov
+[2019-02-14 15:36:49 426 ERROR] [com.inrevo.model.StreamGobblerForError]   Duration: 00:09:56.46, start: 0.000000, bitrate: N/A
+[2019-02-14 15:36:49 426 ERROR] [com.inrevo.model.StreamGobblerForError]     Stream #0:0: Audio: aac (LC), 48000 Hz, stereo, fltp
+[2019-02-14 15:36:49 426 ERROR] [com.inrevo.model.StreamGobblerForError]     Stream #0:1: Video: h264 (Constrained Baseline), yuv420p(progressive), 240x160, 24 fps, 24 tbr, 90k tbn, 48 tbc
+[2019-02-14 15:36:49 436 ERROR] [com.inrevo.model.StreamGobblerForError] [NULL @ 00000000006ab000] Unable to find a suitable output format for '–s'
+[2019-02-14 15:36:49 436 ERROR] [com.inrevo.model.StreamGobblerForError] –s: Invalid argument
+[2019-02-14 15:38:35 373 ERROR] [com.inrevo.model.StreamGobblerForError] ffmpeg version N-92981-g51978aefe8 Copyright (c) 2000-2019 the FFmpeg developers
+[2019-02-14 15:38:35 383 ERROR] [com.inrevo.model.StreamGobblerForError]   built with gcc 8.2.1 (GCC) 20181201
+[2019-02-14 15:38:35 383 ERROR] [com.inrevo.model.StreamGobblerForError]   configuration: --enable-gpl --enable-version3 --enable-sdl2 --enable-fontconfig --enable-gnutls --enable-iconv --enable-libass --enable-libbluray --enable-libfreetype --enable-libmp3lame --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-libopus --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libtheora --enable-libtwolame --enable-libvpx --enable-libwavpack --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libzimg --enable-lzma --enable-zlib --enable-gmp --enable-libvidstab --enable-libvorbis --enable-libvo-amrwbenc --enable-libmysofa --enable-libspeex --enable-libxvid --enable-libaom --enable-libmfx --enable-amf --enable-ffnvcodec --enable-cuvid --enable-d3d11va --enable-nvenc --enable-nvdec --enable-dxva2 --enable-avisynth --enable-libopenmpt
+[2019-02-14 15:38:35 383 ERROR] [com.inrevo.model.StreamGobblerForError]   libavutil      56. 25.100 / 56. 25.100
+[2019-02-14 15:38:35 383 ERROR] [com.inrevo.model.StreamGobblerForError]   libavcodec     58. 44.100 / 58. 44.100
+[2019-02-14 15:38:35 383 ERROR] [com.inrevo.model.StreamGobblerForError]   libavformat    58. 26.100 / 58. 26.100
+[2019-02-14 15:38:35 383 ERROR] [com.inrevo.model.StreamGobblerForError]   libavdevice    58.  6.101 / 58.  6.101
+[2019-02-14 15:38:35 383 ERROR] [com.inrevo.model.StreamGobblerForError]   libavfilter     7. 48.100 /  7. 48.100
+[2019-02-14 15:38:35 383 ERROR] [com.inrevo.model.StreamGobblerForError]   libswscale      5.  4.100 /  5.  4.100
+[2019-02-14 15:38:35 383 ERROR] [com.inrevo.model.StreamGobblerForError]   libswresample   3.  4.100 /  3.  4.100
+[2019-02-14 15:38:35 383 ERROR] [com.inrevo.model.StreamGobblerForError]   libpostproc    55.  4.100 / 55.  4.100
+[2019-02-14 15:38:36 262 ERROR] [com.inrevo.model.StreamGobblerForError] [udp @ 00000000003a6440] 'circular_buffer_size' option was set but it is not supported on this build (pthread support is required)
+[2019-02-14 15:38:36 268 ERROR] [com.inrevo.model.StreamGobblerForError] [udp @ 00000000003bd380] 'circular_buffer_size' option was set but it is not supported on this build (pthread support is required)
+[2019-02-14 15:38:36 730 ERROR] [com.inrevo.model.StreamGobblerForError] [udp @ 00000000003cdb40] 'circular_buffer_size' option was set but it is not supported on this build (pthread support is required)
+[2019-02-14 15:38:36 730 ERROR] [com.inrevo.model.StreamGobblerForError] [udp @ 00000000003dde00] 'circular_buffer_size' option was set but it is not supported on this build (pthread support is required)
+[2019-02-14 15:38:38 975 ERROR] [com.inrevo.model.StreamGobblerForError] Input #0, rtsp, from 'rtsp://184.72.239.149/vod/mp4://BigBuckBunny_175k.mov':
+[2019-02-14 15:38:38 975 ERROR] [com.inrevo.model.StreamGobblerForError]   Metadata:
+[2019-02-14 15:38:38 975 ERROR] [com.inrevo.model.StreamGobblerForError]     title           : BigBuckBunny_175k.mov
+[2019-02-14 15:38:38 975 ERROR] [com.inrevo.model.StreamGobblerForError]   Duration: 00:09:56.46, start: 0.000000, bitrate: N/A
+[2019-02-14 15:38:38 975 ERROR] [com.inrevo.model.StreamGobblerForError]     Stream #0:0: Audio: aac (LC), 48000 Hz, stereo, fltp
+[2019-02-14 15:38:38 975 ERROR] [com.inrevo.model.StreamGobblerForError]     Stream #0:1: Video: h264 (Constrained Baseline), yuv420p(progressive), 240x160, 24 fps, 24 tbr, 90k tbn, 48 tbc
+[2019-02-14 15:38:38 975 ERROR] [com.inrevo.model.StreamGobblerForError] [NULL @ 000000000042fb00] Unable to find a suitable output format for '–s'
+[2019-02-14 15:38:38 975 ERROR] [com.inrevo.model.StreamGobblerForError] –s: Invalid argument
+[2019-02-14 15:39:08 178 ERROR] [com.inrevo.model.StreamGobblerForError] ffmpeg version N-92981-g51978aefe8 Copyright (c) 2000-2019 the FFmpeg developers
+[2019-02-14 15:39:08 191 ERROR] [com.inrevo.model.StreamGobblerForError]   built with gcc 8.2.1 (GCC) 20181201
+[2019-02-14 15:39:08 192 ERROR] [com.inrevo.model.StreamGobblerForError]   configuration: --enable-gpl --enable-version3 --enable-sdl2 --enable-fontconfig --enable-gnutls --enable-iconv --enable-libass --enable-libbluray --enable-libfreetype --enable-libmp3lame --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-libopus --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libtheora --enable-libtwolame --enable-libvpx --enable-libwavpack --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libzimg --enable-lzma --enable-zlib --enable-gmp --enable-libvidstab --enable-libvorbis --enable-libvo-amrwbenc --enable-libmysofa --enable-libspeex --enable-libxvid --enable-libaom --enable-libmfx --enable-amf --enable-ffnvcodec --enable-cuvid --enable-d3d11va --enable-nvenc --enable-nvdec --enable-dxva2 --enable-avisynth --enable-libopenmpt
+[2019-02-14 15:39:08 196 ERROR] [com.inrevo.model.StreamGobblerForError]   libavutil      56. 25.100 / 56. 25.100
+[2019-02-14 15:39:08 196 ERROR] [com.inrevo.model.StreamGobblerForError]   libavcodec     58. 44.100 / 58. 44.100
+[2019-02-14 15:39:08 197 ERROR] [com.inrevo.model.StreamGobblerForError]   libavformat    58. 26.100 / 58. 26.100
+[2019-02-14 15:39:08 197 ERROR] [com.inrevo.model.StreamGobblerForError]   libavdevice    58.  6.101 / 58.  6.101
+[2019-02-14 15:39:08 198 ERROR] [com.inrevo.model.StreamGobblerForError]   libavfilter     7. 48.100 /  7. 48.100
+[2019-02-14 15:39:08 198 ERROR] [com.inrevo.model.StreamGobblerForError]   libswscale      5.  4.100 /  5.  4.100
+[2019-02-14 15:39:08 198 ERROR] [com.inrevo.model.StreamGobblerForError]   libswresample   3.  4.100 /  3.  4.100
+[2019-02-14 15:39:08 199 ERROR] [com.inrevo.model.StreamGobblerForError]   libpostproc    55.  4.100 / 55.  4.100
+[2019-02-14 15:39:09 114 ERROR] [com.inrevo.model.StreamGobblerForError] [udp @ 000000000041ce80] 'circular_buffer_size' option was set but it is not supported on this build (pthread support is required)
+[2019-02-14 15:39:09 114 ERROR] [com.inrevo.model.StreamGobblerForError] [udp @ 000000000042d180] 'circular_buffer_size' option was set but it is not supported on this build (pthread support is required)
+[2019-02-14 15:39:09 675 ERROR] [com.inrevo.model.StreamGobblerForError] [udp @ 000000000043da00] 'circular_buffer_size' option was set but it is not supported on this build (pthread support is required)
+[2019-02-14 15:39:09 675 ERROR] [com.inrevo.model.StreamGobblerForError] [udp @ 000000000044dcc0] 'circular_buffer_size' option was set but it is not supported on this build (pthread support is required)
+[2019-02-14 15:39:12 026 ERROR] [com.inrevo.model.StreamGobblerForError] Input #0, rtsp, from 'rtsp://184.72.239.149/vod/mp4://BigBuckBunny_175k.mov':
+[2019-02-14 15:39:12 026 ERROR] [com.inrevo.model.StreamGobblerForError]   Metadata:
+[2019-02-14 15:39:12 026 ERROR] [com.inrevo.model.StreamGobblerForError]     title           : BigBuckBunny_175k.mov
+[2019-02-14 15:39:12 026 ERROR] [com.inrevo.model.StreamGobblerForError]   Duration: 00:09:56.46, start: 0.000000, bitrate: N/A
+[2019-02-14 15:39:12 036 ERROR] [com.inrevo.model.StreamGobblerForError]     Stream #0:0: Audio: aac (LC), 48000 Hz, stereo, fltp
+[2019-02-14 15:39:12 036 ERROR] [com.inrevo.model.StreamGobblerForError]     Stream #0:1: Video: h264 (Constrained Baseline), yuv420p(progressive), 240x160, 24 fps, 24 tbr, 90k tbn, 48 tbc
+[2019-02-14 15:39:12 426 ERROR] [com.inrevo.model.StreamGobblerForError] Stream mapping:
+[2019-02-14 15:39:12 426 ERROR] [com.inrevo.model.StreamGobblerForError]   Stream #0:1 -> #0:0 (h264 (native) -> h264 (libx264))
+[2019-02-14 15:39:12 426 ERROR] [com.inrevo.model.StreamGobblerForError]   Stream #0:0 -> #0:1 (aac (native) -> mp3 (libmp3lame))
+[2019-02-14 15:39:12 426 ERROR] [com.inrevo.model.StreamGobblerForError] Press [q] to stop, [?] for help
+[2019-02-14 15:39:12 456 ERROR] [com.inrevo.model.StreamGobblerForError] [libx264 @ 0000000000498600] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX
+[2019-02-14 15:39:12 466 ERROR] [com.inrevo.model.StreamGobblerForError] [libx264 @ 0000000000498600] profile High, level 1.2, 4:2:0, 8-bit
+[2019-02-14 15:39:12 476 ERROR] [com.inrevo.model.StreamGobblerForError] [libx264 @ 0000000000498600] 264 - core 157 r2935 545de2f - H.264/MPEG-4 AVC codec - Copyleft 2003-2018 - http://www.videolan.org/x264.html - options: cabac=1 ref=3 deblock=1:0:0 analyse=0x3:0x113 me=hex subme=7 psy=1 psy_rd=1.00:0.00 mixed_ref=1 me_range=16 chroma_me=1 trellis=1 8x8dct=1 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=-2 threads=5 lookahead_threads=1 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=3 b_pyramid=2 b_adapt=1 b_bias=0 direct=1 weightb=1 open_gop=0 weightp=2 keyint=250 keyint_min=24 scenecut=40 intra_refresh=0 rc_lookahead=40 rc=crf mbtree=1 crf=23.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=1:1.00
+[2019-02-14 15:39:12 476 ERROR] [com.inrevo.model.StreamGobblerForError] Output #0, flv, to 'rtmp://localhost:1901/hls/monitor1':
+[2019-02-14 15:39:12 476 ERROR] [com.inrevo.model.StreamGobblerForError]   Metadata:
+[2019-02-14 15:39:12 476 ERROR] [com.inrevo.model.StreamGobblerForError]     title           : BigBuckBunny_175k.mov
+[2019-02-14 15:39:12 476 ERROR] [com.inrevo.model.StreamGobblerForError]     encoder         : Lavf58.26.100
+[2019-02-14 15:39:12 476 ERROR] [com.inrevo.model.StreamGobblerForError]     Stream #0:0: Video: h264 (libx264) ([7][0][0][0] / 0x0007), yuv420p, 240x160, q=-1--1, 24 fps, 1k tbn, 24 tbc
+[2019-02-14 15:39:12 476 ERROR] [com.inrevo.model.StreamGobblerForError]     Metadata:
+[2019-02-14 15:39:12 476 ERROR] [com.inrevo.model.StreamGobblerForError]       encoder         : Lavc58.44.100 libx264
+[2019-02-14 15:39:12 476 ERROR] [com.inrevo.model.StreamGobblerForError]     Side data:
+[2019-02-14 15:39:12 476 ERROR] [com.inrevo.model.StreamGobblerForError]       cpb: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: -1
+[2019-02-14 15:39:12 476 ERROR] [com.inrevo.model.StreamGobblerForError]     Stream #0:1: Audio: mp3 (libmp3lame) ([2][0][0][0] / 0x0002), 48000 Hz, stereo, fltp
+[2019-02-14 15:39:12 476 ERROR] [com.inrevo.model.StreamGobblerForError]     Metadata:
+[2019-02-14 15:39:12 476 ERROR] [com.inrevo.model.StreamGobblerForError]       encoder         : Lavc58.44.100 libmp3lame
+[2019-02-14 15:39:12 978 ERROR] [com.inrevo.model.StreamGobblerForError] frame=   40 fps=0.0 q=0.0 size=       0kB time=00:00:02.01 bitrate=   1.6kbits/s dup=0 drop=5 speed=3.65x    
+[2019-02-14 15:39:13 560 ERROR] [com.inrevo.model.StreamGobblerForError] frame=   54 fps= 48 q=28.0 size=       8kB time=00:00:02.59 bitrate=  23.9kbits/s dup=0 drop=5 speed=2.29x    
+[2019-02-14 15:39:14 077 ERROR] [com.inrevo.model.StreamGobblerForError] frame=   69 fps= 42 q=28.0 size=      22kB time=00:00:03.09 bitrate=  57.7kbits/s dup=0 drop=5 speed=1.89x    
+[2019-02-14 15:39:14 569 ERROR] [com.inrevo.model.StreamGobblerForError] frame=   81 fps= 38 q=28.0 size=      35kB time=00:00:03.57 bitrate=  80.7kbits/s dup=0 drop=5 speed=1.67x    
+[2019-02-14 15:39:15 090 ERROR] [com.inrevo.model.StreamGobblerForError] frame=   91 fps= 34 q=28.0 size=      47kB time=00:00:04.12 bitrate=  93.6kbits/s dup=0 drop=5 speed=1.56x    
+[2019-02-14 15:39:15 593 ERROR] [com.inrevo.model.StreamGobblerForError] frame=  105 fps= 33 q=28.0 size=      61kB time=00:00:04.58 bitrate= 109.4kbits/s dup=0 drop=5 speed=1.45x    
+[2019-02-14 15:39:16 114 ERROR] [com.inrevo.model.StreamGobblerForError] frame=  115 fps= 31 q=28.0 size=      72kB time=00:00:05.18 bitrate= 113.9kbits/s dup=0 drop=5 speed=1.41x    
+[2019-02-14 15:39:16 599 ERROR] [com.inrevo.model.StreamGobblerForError] frame=  127 fps= 30 q=28.0 size=      85kB time=00:00:05.64 bitrate= 123.1kbits/s dup=0 drop=5 speed=1.35x    
+[2019-02-14 15:39:17 102 ERROR] [com.inrevo.model.StreamGobblerForError] frame=  139 fps= 30 q=28.0 size=      98kB time=00:00:06.12 bitrate= 131.7kbits/s dup=0 drop=5 speed=1.31x    
+[2019-02-14 15:39:17 619 ERROR] [com.inrevo.model.StreamGobblerForError] frame=  153 fps= 30 q=28.0 size=     112kB time=00:00:06.60 bitrate= 139.2kbits/s dup=0 drop=5 speed=1.28x    
+[2019-02-14 15:39:18 102 ERROR] [com.inrevo.model.StreamGobblerForError] frame=  163 fps= 29 q=28.0 size=     124kB time=00:00:07.17 bitrate= 141.6kbits/s dup=0 drop=5 speed=1.26x    
+[2019-02-14 15:39:18 605 ERROR] [com.inrevo.model.StreamGobblerForError] frame=  178 fps= 29 q=28.0 size=     140kB time=00:00:07.60 bitrate= 151.1kbits/s dup=0 drop=5 speed=1.23x    
+[2019-02-14 15:39:19 107 ERROR] [com.inrevo.model.StreamGobblerForError] frame=  189 fps= 28 q=28.0 size=     154kB time=00:00:08.11 bitrate= 155.7kbits/s dup=0 drop=5 speed=1.21x    
+[2019-02-14 15:39:19 632 ERROR] [com.inrevo.model.StreamGobblerForError] frame=  199 fps= 28 q=28.0 size=     164kB time=00:00:08.66 bitrate= 154.8kbits/s dup=0 drop=5 speed= 1.2x    
+[2019-02-14 15:39:20 217 ERROR] [com.inrevo.model.StreamGobblerForError] frame=  214 fps= 28 q=28.0 size=     179kB time=00:00:09.26 bitrate= 158.6kbits/s dup=0 drop=5 speed=1.19x    
+[2019-02-14 15:39:20 786 ERROR] [com.inrevo.model.StreamGobblerForError] frame=  227 fps= 27 q=28.0 size=     193kB time=00:00:09.81 bitrate= 160.8kbits/s dup=0 drop=5 speed=1.17x    
+[2019-02-14 15:39:21 298 ERROR] [com.inrevo.model.StreamGobblerForError] frame=  240 fps= 27 q=28.0 size=     208kB time=00:00:10.29 bitrate= 165.7kbits/s dup=0 drop=5 speed=1.16x    
+[2019-02-14 15:39:21 957 ERROR] [com.inrevo.model.StreamGobblerForError] frame=  246 fps= 26 q=28.0 size=     215kB time=00:00:10.60 bitrate= 165.9kbits/s dup=0 drop=5 speed=1.12x    
+[2019-02-14 15:39:22 502 ERROR] [com.inrevo.model.StreamGobblerForError] frame=  268 fps= 27 q=28.0 size=     239kB time=00:00:11.52 bitrate= 170.2kbits/s dup=0 drop=5 speed=1.14x    
+[2019-02-14 15:39:23 098 ERROR] [com.inrevo.model.StreamGobblerForError] frame=  284 fps= 27 q=28.0 size=     262kB time=00:00:12.12 bitrate= 177.4kbits/s dup=0 drop=5 speed=1.14x    
+[2019-02-14 15:39:23 600 ERROR] [com.inrevo.model.StreamGobblerForError] frame=  295 fps= 26 q=28.0 size=     274kB time=00:00:12.62 bitrate= 177.8kbits/s dup=0 drop=5 speed=1.13x    
+[2019-02-14 15:39:24 107 ERROR] [com.inrevo.model.StreamGobblerForError] frame=  308 fps= 26 q=28.0 size=     297kB time=00:00:13.20 bitrate= 184.4kbits/s dup=0 drop=5 speed=1.13x    
+[2019-02-14 15:39:24 607 ERROR] [com.inrevo.model.StreamGobblerForError] frame=  322 fps= 26 q=28.0 size=     311kB time=00:00:13.70 bitrate= 185.8kbits/s dup=0 drop=5 speed=1.13x    
+[2019-02-14 15:39:25 117 ERROR] [com.inrevo.model.StreamGobblerForError] frame=  332 fps= 26 q=28.0 size=     333kB time=00:00:14.16 bitrate= 192.8kbits/s dup=0 drop=5 speed=1.12x    
+[2019-02-14 15:39:25 626 ERROR] [com.inrevo.model.StreamGobblerForError] frame=  344 fps= 26 q=28.0 size=     349kB time=00:00:14.68 bitrate= 194.5kbits/s dup=0 drop=5 speed=1.11x    
+[2019-02-14 15:39:26 135 ERROR] [com.inrevo.model.StreamGobblerForError] frame=  356 fps= 26 q=28.0 size=     363kB time=00:00:15.24 bitrate= 195.3kbits/s dup=0 drop=5 speed=1.11x    
+[2019-02-14 15:39:26 632 ERROR] [com.inrevo.model.StreamGobblerForError] frame=  368 fps= 26 q=28.0 size=     378kB time=00:00:15.67 bitrate= 197.7kbits/s dup=0 drop=5 speed= 1.1x    
+[2019-02-14 15:39:27 131 ERROR] [com.inrevo.model.StreamGobblerForError] frame=  380 fps= 26 q=28.0 size=     399kB time=00:00:16.20 bitrate= 201.5kbits/s dup=0 drop=5 speed= 1.1x    
+[2019-02-14 15:39:27 637 ERROR] [com.inrevo.model.StreamGobblerForError] frame=  392 fps= 26 q=28.0 size=     413kB time=00:00:16.68 bitrate= 202.8kbits/s dup=0 drop=5 speed= 1.1x    
+[2019-02-14 15:39:28 147 ERROR] [com.inrevo.model.StreamGobblerForError] frame=  405 fps= 26 q=28.0 size=     427kB time=00:00:17.18 bitrate= 203.5kbits/s dup=0 drop=5 speed=1.09x    
+[2019-02-14 15:39:28 655 ERROR] [com.inrevo.model.StreamGobblerForError] frame=  419 fps= 26 q=25.0 size=     441kB time=00:00:17.66 bitrate= 204.3kbits/s dup=0 drop=5 speed=1.09x    
+[2019-02-14 15:39:29 263 ERROR] [com.inrevo.model.StreamGobblerForError] frame=  431 fps= 26 q=28.0 size=     455kB time=00:00:18.28 bitrate= 203.8kbits/s dup=0 drop=5 speed=1.09x    
+[2019-02-14 15:39:29 663 ERROR] [com.inrevo.model.StreamGobblerForError] frame=  441 fps= 26 q=28.0 size=     466kB time=00:00:18.72 bitrate= 203.9kbits/s dup=0 drop=5 speed=1.09x    
+[2019-02-14 15:39:30 173 ERROR] [com.inrevo.model.StreamGobblerForError] frame=  453 fps= 26 q=28.0 size=     476kB time=00:00:19.22 bitrate= 202.8kbits/s dup=0 drop=5 speed=1.08x    
+[2019-02-14 15:39:30 680 ERROR] [com.inrevo.model.StreamGobblerForError] frame=  465 fps= 25 q=28.0 size=     487kB time=00:00:19.70 bitrate= 202.5kbits/s dup=0 drop=5 speed=1.08x    
+[2019-02-14 15:39:31 190 ERROR] [com.inrevo.model.StreamGobblerForError] frame=  478 fps= 25 q=28.0 size=     504kB time=00:00:20.20 bitrate= 204.1kbits/s dup=0 drop=5 speed=1.08x    
+[2019-02-14 15:39:31 690 ERROR] [com.inrevo.model.StreamGobblerForError] frame=  490 fps= 25 q=28.0 size=     515kB time=00:00:20.78 bitrate= 203.0kbits/s dup=0 drop=5 speed=1.08x    
+[2019-02-14 15:39:32 263 ERROR] [com.inrevo.model.StreamGobblerForError] frame=  505 fps= 25 q=28.0 size=     527kB time=00:00:21.31 bitrate= 202.7kbits/s dup=0 drop=5 speed=1.07x    
+[2019-02-14 15:39:32 776 ERROR] [com.inrevo.model.StreamGobblerForError] frame=  518 fps= 25 q=28.0 size=     538kB time=00:00:21.79 bitrate= 202.1kbits/s dup=0 drop=5 speed=1.07x    
+[2019-02-14 15:39:33 276 ERROR] [com.inrevo.model.StreamGobblerForError] frame=  529 fps= 25 q=28.0 size=     551kB time=00:00:22.32 bitrate= 202.1kbits/s dup=0 drop=5 speed=1.07x    
+[2019-02-14 15:39:33 780 ERROR] [com.inrevo.model.StreamGobblerForError] frame=  541 fps= 25 q=28.0 size=     567kB time=00:00:22.80 bitrate= 203.8kbits/s dup=0 drop=5 speed=1.07x    
+[2019-02-14 15:39:34 296 ERROR] [com.inrevo.model.StreamGobblerForError] frame=  552 fps= 25 q=28.0 size=     580kB time=00:00:23.32 bitrate= 203.5kbits/s dup=0 drop=5 speed=1.07x    
+[2019-02-14 15:39:34 796 ERROR] [com.inrevo.model.StreamGobblerForError] frame=  564 fps= 25 q=28.0 size=     589kB time=00:00:23.88 bitrate= 202.1kbits/s dup=0 drop=5 speed=1.07x    
+[2019-02-14 15:39:35 303 ERROR] [com.inrevo.model.StreamGobblerForError] frame=  577 fps= 25 q=28.0 size=     601kB time=00:00:24.31 bitrate= 202.6kbits/s dup=0 drop=5 speed=1.06x    
+[2019-02-14 15:39:35 810 ERROR] [com.inrevo.model.StreamGobblerForError] frame=  588 fps= 25 q=28.0 size=     609kB time=00:00:24.86 bitrate= 200.8kbits/s dup=0 drop=5 speed=1.06x    
+[2019-02-14 15:39:36 336 ERROR] [com.inrevo.model.StreamGobblerForError] frame=  601 fps= 25 q=28.0 size=     631kB time=00:00:25.39 bitrate= 203.6kbits/s dup=0 drop=5 speed=1.06x    
+[2019-02-14 15:39:36 846 ERROR] [com.inrevo.model.StreamGobblerForError] frame=  613 fps= 25 q=28.0 size=     643kB time=00:00:25.87 bitrate= 203.7kbits/s dup=0 drop=5 speed=1.06x    
+[2019-02-14 15:39:37 356 ERROR] [com.inrevo.model.StreamGobblerForError] frame=  626 fps= 25 q=28.0 size=     658kB time=00:00:26.37 bitrate= 204.5kbits/s dup=0 drop=5 speed=1.06x    
+[2019-02-14 15:39:37 856 ERROR] [com.inrevo.model.StreamGobblerForError] frame=  637 fps= 25 q=28.0 size=     671kB time=00:00:26.90 bitrate= 204.3kbits/s dup=0 drop=5 speed=1.06x    
+[2019-02-14 15:39:38 363 ERROR] [com.inrevo.model.StreamGobblerForError] frame=  650 fps= 25 q=28.0 size=     692kB time=00:00:27.36 bitrate= 207.2kbits/s dup=0 drop=5 speed=1.05x    
+[2019-02-14 15:39:38 863 ERROR] [com.inrevo.model.StreamGobblerForError] frame=  661 fps= 25 q=28.0 size=     709kB time=00:00:27.91 bitrate= 208.2kbits/s dup=0 drop=5 speed=1.06x    
+[2019-02-14 15:39:39 380 ERROR] [com.inrevo.model.StreamGobblerForError] frame=  674 fps= 25 q=28.0 size=     729kB time=00:00:28.36 bitrate= 210.4kbits/s dup=0 drop=5 speed=1.05x    
+[2019-02-14 15:39:39 870 ERROR] [com.inrevo.model.StreamGobblerForError] frame=  687 fps= 25 q=28.0 size=     744kB time=00:00:28.87 bitrate= 211.0kbits/s dup=0 drop=5 speed=1.05x    
+[2019-02-14 15:39:40 373 ERROR] [com.inrevo.model.StreamGobblerForError] frame=  699 fps= 25 q=28.0 size=     762kB time=00:00:29.37 bitrate= 212.4kbits/s dup=0 drop=5 speed=1.05x    
+[2019-02-14 15:39:40 874 ERROR] [com.inrevo.model.StreamGobblerForError] frame=  708 fps= 25 q=28.0 size=     771kB time=00:00:29.78 bitrate= 212.1kbits/s dup=0 drop=5 speed=1.05x    
+[2019-02-14 15:39:41 390 ERROR] [com.inrevo.model.StreamGobblerForError] frame=  722 fps= 25 q=28.0 size=     786kB time=00:00:30.43 bitrate= 211.5kbits/s dup=0 drop=5 speed=1.05x    
+[2019-02-14 15:39:41 890 ERROR] [com.inrevo.model.StreamGobblerForError] frame=  736 fps= 25 q=28.0 size=     800kB time=00:00:30.86 bitrate= 212.4kbits/s dup=0 drop=5 speed=1.05x    
+[2019-02-14 15:39:42 396 ERROR] [com.inrevo.model.StreamGobblerForError] frame=  747 fps= 25 q=28.0 size=     817kB time=00:00:31.44 bitrate= 212.9kbits/s dup=0 drop=5 speed=1.05x    
+[2019-02-14 15:39:42 986 ERROR] [com.inrevo.model.StreamGobblerForError] frame=  760 fps= 25 q=28.0 size=     833kB time=00:00:32.01 bitrate= 213.2kbits/s dup=0 drop=5 speed=1.05x    
+[2019-02-14 15:39:43 491 ERROR] [com.inrevo.model.StreamGobblerForError] frame=  772 fps= 25 q=28.0 size=     848kB time=00:00:32.49 bitrate= 213.8kbits/s dup=0 drop=5 speed=1.05x    
+[2019-02-14 15:39:44 086 ERROR] [com.inrevo.model.StreamGobblerForError] frame=  786 fps= 25 q=28.0 size=     863kB time=00:00:33.12 bitrate= 213.5kbits/s dup=0 drop=5 speed=1.05x    
+[2019-02-14 15:39:44 586 ERROR] [com.inrevo.model.StreamGobblerForError] frame=  800 fps= 25 q=28.0 size=     881kB time=00:00:33.57 bitrate= 215.0kbits/s dup=0 drop=5 speed=1.04x    
+[2019-02-14 15:39:45 095 ERROR] [com.inrevo.model.StreamGobblerForError] frame=  811 fps= 25 q=28.0 size=     895kB time=00:00:34.10 bitrate= 215.0kbits/s dup=0 drop=5 speed=1.04x    
+[2019-02-14 15:39:45 679 ERROR] [com.inrevo.model.StreamGobblerForError] frame=  826 fps= 25 q=28.0 size=     915kB time=00:00:34.70 bitrate= 216.0kbits/s dup=0 drop=5 speed=1.04x    
+[2019-02-14 15:39:46 183 ERROR] [com.inrevo.model.StreamGobblerForError] frame=  837 fps= 25 q=28.0 size=     930kB time=00:00:35.23 bitrate= 216.2kbits/s dup=0 drop=5 speed=1.04x    
+[2019-02-14 15:39:46 700 ERROR] [com.inrevo.model.StreamGobblerForError] frame=  851 fps= 25 q=28.0 size=     956kB time=00:00:35.71 bitrate= 219.4kbits/s dup=0 drop=5 speed=1.04x    
+[2019-02-14 15:39:47 196 ERROR] [com.inrevo.model.StreamGobblerForError] frame=  863 fps= 25 q=28.0 size=     970kB time=00:00:36.21 bitrate= 219.3kbits/s dup=0 drop=5 speed=1.04x    
+[2019-02-14 15:39:47 706 ERROR] [com.inrevo.model.StreamGobblerForError] frame=  875 fps= 25 q=28.0 size=     981kB time=00:00:36.72 bitrate= 218.8kbits/s dup=0 drop=5 speed=1.04x    
+[2019-02-14 15:39:48 202 ERROR] [com.inrevo.model.StreamGobblerForError] frame=  888 fps= 25 q=28.0 size=     996kB time=00:00:37.20 bitrate= 219.3kbits/s dup=0 drop=5 speed=1.04x    
+[2019-02-14 15:39:48 714 ERROR] [com.inrevo.model.StreamGobblerForError] frame=  899 fps= 25 q=28.0 size=    1006kB time=00:00:37.72 bitrate= 218.4kbits/s dup=0 drop=5 speed=1.04x    
+[2019-02-14 15:39:49 216 ERROR] [com.inrevo.model.StreamGobblerForError] frame=  911 fps= 25 q=28.0 size=    1016kB time=00:00:38.23 bitrate= 217.8kbits/s dup=0 drop=5 speed=1.04x    
+[2019-02-14 15:39:49 729 ERROR] [com.inrevo.model.StreamGobblerForError] frame=  922 fps= 25 q=28.0 size=    1026kB time=00:00:38.76 bitrate= 216.9kbits/s dup=0 drop=5 speed=1.04x    
+[2019-02-14 15:39:50 220 ERROR] [com.inrevo.model.StreamGobblerForError] frame=  934 fps= 25 q=28.0 size=    1041kB time=00:00:39.26 bitrate= 217.1kbits/s dup=0 drop=5 speed=1.04x    
+[2019-02-14 15:39:50 722 ERROR] [com.inrevo.model.StreamGobblerForError] frame=  947 fps= 25 q=28.0 size=    1052kB time=00:00:39.81 bitrate= 216.5kbits/s dup=0 drop=5 speed=1.04x    
+[2019-02-14 15:39:51 260 ERROR] [com.inrevo.model.StreamGobblerForError] frame=  959 fps= 25 q=28.0 size=    1063kB time=00:00:40.29 bitrate= 216.0kbits/s dup=0 drop=5 speed=1.04x    
+[2019-02-14 15:39:51 857 ERROR] [com.inrevo.model.StreamGobblerForError] frame=  973 fps= 25 q=28.0 size=    1075kB time=00:00:40.89 bitrate= 215.3kbits/s dup=0 drop=5 speed=1.04x    
+[2019-02-14 15:39:52 356 ERROR] [com.inrevo.model.StreamGobblerForError] frame=  987 fps= 25 q=28.0 size=    1091kB time=00:00:41.44 bitrate= 215.6kbits/s dup=0 drop=5 speed=1.04x    
+[2019-02-14 15:39:52 860 ERROR] [com.inrevo.model.StreamGobblerForError] frame=  997 fps= 25 q=28.0 size=    1100kB time=00:00:41.90 bitrate= 215.1kbits/s dup=0 drop=5 speed=1.04x    
+[2019-02-14 15:39:53 366 ERROR] [com.inrevo.model.StreamGobblerForError] frame= 1009 fps= 25 q=28.0 size=    1111kB time=00:00:42.40 bitrate= 214.6kbits/s dup=0 drop=5 speed=1.04x    
+[2019-02-14 15:39:53 872 ERROR] [com.inrevo.model.StreamGobblerForError] frame= 1023 fps= 25 q=28.0 size=    1124kB time=00:00:42.88 bitrate= 214.7kbits/s dup=0 drop=5 speed=1.03x    
+[2019-02-14 15:39:54 389 ERROR] [com.inrevo.model.StreamGobblerForError] frame= 1034 fps= 25 q=28.0 size=    1137kB time=00:00:43.41 bitrate= 214.5kbits/s dup=0 drop=5 speed=1.03x    
+[2019-02-14 15:39:54 879 ERROR] [com.inrevo.model.StreamGobblerForError] frame= 1048 fps= 25 q=28.0 size=    1149kB time=00:00:43.87 bitrate= 214.5kbits/s dup=0 drop=5 speed=1.03x    
+[2019-02-14 15:39:55 395 ERROR] [com.inrevo.model.StreamGobblerForError] frame= 1060 fps= 25 q=28.0 size=    1160kB time=00:00:44.37 bitrate= 214.1kbits/s dup=0 drop=5 speed=1.03x    
+[2019-02-14 15:39:55 895 ERROR] [com.inrevo.model.StreamGobblerForError] frame= 1070 fps= 25 q=28.0 size=    1169kB time=00:00:44.92 bitrate= 213.2kbits/s dup=0 drop=5 speed=1.03x    
+[2019-02-14 15:39:56 462 ERROR] [com.inrevo.model.StreamGobblerForError] frame= 1084 fps= 25 q=28.0 size=    1185kB time=00:00:45.52 bitrate= 213.2kbits/s dup=0 drop=5 speed=1.03x    
+[2019-02-14 15:39:56 985 ERROR] [com.inrevo.model.StreamGobblerForError] frame= 1097 fps= 25 q=28.0 size=    1196kB time=00:00:46.03 bitrate= 212.8kbits/s dup=0 drop=5 speed=1.03x    
+[2019-02-14 15:39:57 495 ERROR] [com.inrevo.model.StreamGobblerForError] frame= 1109 fps= 25 q=28.0 size=    1215kB time=00:00:46.53 bitrate= 213.9kbits/s dup=0 drop=5 speed=1.03x    
+[2019-02-14 15:39:57 995 ERROR] [com.inrevo.model.StreamGobblerForError] frame= 1122 fps= 25 q=28.0 size=    1229kB time=00:00:47.01 bitrate= 214.1kbits/s dup=0 drop=5 speed=1.03x    
+[2019-02-14 15:39:58 533 ERROR] [com.inrevo.model.StreamGobblerForError] frame= 1136 fps= 25 q=28.0 size=    1245kB time=00:00:47.52 bitrate= 214.7kbits/s dup=0 drop=5 speed=1.03x    
+[2019-02-14 15:39:59 040 ERROR] [com.inrevo.model.StreamGobblerForError] frame= 1145 fps= 25 q=28.0 size=    1254kB time=00:00:48.07 bitrate= 213.7kbits/s dup=0 drop=5 speed=1.03x    
+[2019-02-14 15:39:59 546 ERROR] [com.inrevo.model.StreamGobblerForError] frame= 1160 fps= 25 q=28.0 size=    1268kB time=00:00:48.52 bitrate= 214.1kbits/s dup=0 drop=5 speed=1.03x    
+[2019-02-14 15:40:00 055 ERROR] [com.inrevo.model.StreamGobblerForError] frame= 1172 fps= 25 q=28.0 size=    1282kB time=00:00:49.05 bitrate= 214.1kbits/s dup=0 drop=5 speed=1.03x    
+[2019-02-14 15:40:00 560 ERROR] [com.inrevo.model.StreamGobblerForError] frame= 1183 fps= 25 q=28.0 size=    1293kB time=00:00:49.56 bitrate= 213.8kbits/s dup=0 drop=5 speed=1.03x    
+[2019-02-14 15:40:01 066 ERROR] [com.inrevo.model.StreamGobblerForError] frame= 1196 fps= 25 q=28.0 size=    1318kB time=00:00:50.04 bitrate= 215.8kbits/s dup=0 drop=5 speed=1.03x    
+[2019-02-14 15:40:01 570 ERROR] [com.inrevo.model.StreamGobblerForError] frame= 1207 fps= 25 q=28.0 size=    1331kB time=00:00:50.59 bitrate= 215.5kbits/s dup=0 drop=5 speed=1.03x    
+[2019-02-14 15:40:02 129 ERROR] [com.inrevo.model.StreamGobblerForError] frame= 1221 fps= 25 q=28.0 size=    1352kB time=00:00:51.19 bitrate= 216.4kbits/s dup=0 drop=5 speed=1.03x    
+[2019-02-14 15:40:02 638 ERROR] [com.inrevo.model.StreamGobblerForError] frame= 1233 fps= 25 q=28.0 size=    1371kB time=00:00:51.74 bitrate= 217.1kbits/s dup=0 drop=5 speed=1.03x    
+[2019-02-14 15:40:03 145 ERROR] [com.inrevo.model.StreamGobblerForError] frame= 1245 fps= 25 q=28.0 size=    1389kB time=00:00:52.20 bitrate= 218.0kbits/s dup=0 drop=5 speed=1.03x    
+[2019-02-14 15:40:03 655 ERROR] [com.inrevo.model.StreamGobblerForError] frame= 1258 fps= 25 q=28.0 size=    1406kB time=00:00:52.70 bitrate= 218.5kbits/s dup=0 drop=5 speed=1.03x    
+[2019-02-14 15:40:04 168 ERROR] [com.inrevo.model.StreamGobblerForError] frame= 1269 fps= 25 q=28.0 size=    1425kB time=00:00:53.20 bitrate= 219.3kbits/s dup=0 drop=5 speed=1.03x    
+[2019-02-14 15:40:04 672 ERROR] [com.inrevo.model.StreamGobblerForError] frame= 1282 fps= 25 q=28.0 size=    1435kB time=00:00:53.73 bitrate= 218.7kbits/s dup=0 drop=5 speed=1.03x    
+[2019-02-14 15:40:05 265 ERROR] [com.inrevo.model.StreamGobblerForError] frame= 1295 fps= 25 q=28.0 size=    1449kB time=00:00:54.31 bitrate= 218.5kbits/s dup=0 drop=5 speed=1.03x    
+[2019-02-14 15:40:05 776 ERROR] [com.inrevo.model.StreamGobblerForError] frame= 1308 fps= 25 q=28.0 size=    1461kB time=00:00:54.81 bitrate= 218.3kbits/s dup=0 drop=5 speed=1.03x    
+[2019-02-14 15:40:06 292 ERROR] [com.inrevo.model.StreamGobblerForError] frame= 1320 fps= 25 q=28.0 size=    1478kB time=00:00:55.36 bitrate= 218.7kbits/s dup=0 drop=5 speed=1.03x    
+[2019-02-14 15:40:06 822 ERROR] [com.inrevo.model.StreamGobblerForError] frame= 1332 fps= 24 q=28.0 size=    1490kB time=00:00:55.84 bitrate= 218.6kbits/s dup=0 drop=5 speed=1.03x    
+[2019-02-14 15:40:07 305 ERROR] [com.inrevo.model.StreamGobblerForError] frame= 1345 fps= 25 q=28.0 size=    1502kB time=00:00:56.35 bitrate= 218.4kbits/s dup=0 drop=5 speed=1.03x    
+[2019-02-14 15:40:07 812 ERROR] [com.inrevo.model.StreamGobblerForError] frame= 1356 fps= 24 q=28.0 size=    1515kB time=00:00:56.85 bitrate= 218.4kbits/s dup=0 drop=5 speed=1.03x    
+[2019-02-14 15:41:48 079 ERROR] [com.inrevo.model.StreamGobblerForError] ffmpeg version N-92981-g51978aefe8 Copyright (c) 2000-2019 the FFmpeg developers
+[2019-02-14 15:41:48 079 ERROR] [com.inrevo.model.StreamGobblerForError]   built with gcc 8.2.1 (GCC) 20181201
+[2019-02-14 15:41:48 079 ERROR] [com.inrevo.model.StreamGobblerForError]   configuration: --enable-gpl --enable-version3 --enable-sdl2 --enable-fontconfig --enable-gnutls --enable-iconv --enable-libass --enable-libbluray --enable-libfreetype --enable-libmp3lame --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-libopus --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libtheora --enable-libtwolame --enable-libvpx --enable-libwavpack --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libzimg --enable-lzma --enable-zlib --enable-gmp --enable-libvidstab --enable-libvorbis --enable-libvo-amrwbenc --enable-libmysofa --enable-libspeex --enable-libxvid --enable-libaom --enable-libmfx --enable-amf --enable-ffnvcodec --enable-cuvid --enable-d3d11va --enable-nvenc --enable-nvdec --enable-dxva2 --enable-avisynth --enable-libopenmpt
+[2019-02-14 15:41:48 079 ERROR] [com.inrevo.model.StreamGobblerForError]   libavutil      56. 25.100 / 56. 25.100
+[2019-02-14 15:41:48 079 ERROR] [com.inrevo.model.StreamGobblerForError]   libavcodec     58. 44.100 / 58. 44.100
+[2019-02-14 15:41:48 079 ERROR] [com.inrevo.model.StreamGobblerForError]   libavformat    58. 26.100 / 58. 26.100
+[2019-02-14 15:41:48 079 ERROR] [com.inrevo.model.StreamGobblerForError]   libavdevice    58.  6.101 / 58.  6.101
+[2019-02-14 15:41:48 079 ERROR] [com.inrevo.model.StreamGobblerForError]   libavfilter     7. 48.100 /  7. 48.100
+[2019-02-14 15:41:48 079 ERROR] [com.inrevo.model.StreamGobblerForError]   libswscale      5.  4.100 /  5.  4.100
+[2019-02-14 15:41:48 079 ERROR] [com.inrevo.model.StreamGobblerForError]   libswresample   3.  4.100 /  3.  4.100
+[2019-02-14 15:41:48 079 ERROR] [com.inrevo.model.StreamGobblerForError]   libpostproc    55.  4.100 / 55.  4.100
+[2019-02-14 15:41:49 177 ERROR] [com.inrevo.model.StreamGobblerForError] [udp @ 00000000005dcf40] 'circular_buffer_size' option was set but it is not supported on this build (pthread support is required)
+[2019-02-14 15:41:49 178 ERROR] [com.inrevo.model.StreamGobblerForError] [udp @ 00000000005ed200] 'circular_buffer_size' option was set but it is not supported on this build (pthread support is required)
+[2019-02-14 15:41:49 664 ERROR] [com.inrevo.model.StreamGobblerForError] [udp @ 00000000005fda80] 'circular_buffer_size' option was set but it is not supported on this build (pthread support is required)
+[2019-02-14 15:41:49 665 ERROR] [com.inrevo.model.StreamGobblerForError] [udp @ 000000000060dd80] 'circular_buffer_size' option was set but it is not supported on this build (pthread support is required)
+[2019-02-14 15:41:51 984 ERROR] [com.inrevo.model.StreamGobblerForError] [rtsp @ 00000000005d2d40] max delay reached. need to consume packet
+[2019-02-14 15:41:51 984 ERROR] [com.inrevo.model.StreamGobblerForError] [rtsp @ 00000000005d2d40] RTP: missed 1 packets
+[2019-02-14 15:41:51 984 ERROR] [com.inrevo.model.StreamGobblerForError] [rtsp @ 00000000005d2d40] max delay reached. need to consume packet
+[2019-02-14 15:41:51 984 ERROR] [com.inrevo.model.StreamGobblerForError] [rtsp @ 00000000005d2d40] RTP: missed 1 packets
+[2019-02-14 15:41:52 074 ERROR] [com.inrevo.model.StreamGobblerForError] [rtsp @ 00000000005d2d40] max delay reached. need to consume packet
+[2019-02-14 15:41:52 074 ERROR] [com.inrevo.model.StreamGobblerForError] [rtsp @ 00000000005d2d40] RTP: missed 1 packets
+[2019-02-14 15:41:52 084 ERROR] [com.inrevo.model.StreamGobblerForError] Input #0, rtsp, from 'rtsp://184.72.239.149/vod/mp4://BigBuckBunny_175k.mov':
+[2019-02-14 15:41:52 084 ERROR] [com.inrevo.model.StreamGobblerForError]   Metadata:
+[2019-02-14 15:41:52 084 ERROR] [com.inrevo.model.StreamGobblerForError]     title           : BigBuckBunny_175k.mov
+[2019-02-14 15:41:52 084 ERROR] [com.inrevo.model.StreamGobblerForError]   Duration: 00:09:56.46, start: 0.000000, bitrate: N/A
+[2019-02-14 15:41:52 084 ERROR] [com.inrevo.model.StreamGobblerForError]     Stream #0:0: Audio: aac (LC), 48000 Hz, stereo, fltp
+[2019-02-14 15:41:52 084 ERROR] [com.inrevo.model.StreamGobblerForError]     Stream #0:1: Video: h264 (Constrained Baseline), yuv420p(progressive), 240x160, 24 fps, 24 tbr, 90k tbn, 48 tbc
+[2019-02-14 15:41:52 404 ERROR] [com.inrevo.model.StreamGobblerForError] Stream mapping:
+[2019-02-14 15:41:52 414 ERROR] [com.inrevo.model.StreamGobblerForError]   Stream #0:1 -> #0:0 (h264 (native) -> h264 (libx264))
+[2019-02-14 15:41:52 414 ERROR] [com.inrevo.model.StreamGobblerForError]   Stream #0:0 -> #0:1 (aac (native) -> mp3 (libmp3lame))
+[2019-02-14 15:41:52 414 ERROR] [com.inrevo.model.StreamGobblerForError] Press [q] to stop, [?] for help
+[2019-02-14 15:41:52 454 ERROR] [com.inrevo.model.StreamGobblerForError] [libx264 @ 000000000065adc0] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX
+[2019-02-14 15:41:52 454 ERROR] [com.inrevo.model.StreamGobblerForError] [libx264 @ 000000000065adc0] profile High, level 3.0, 4:2:0, 8-bit
+[2019-02-14 15:41:52 454 ERROR] [com.inrevo.model.StreamGobblerForError] [libx264 @ 000000000065adc0] 264 - core 157 r2935 545de2f - H.264/MPEG-4 AVC codec - Copyleft 2003-2018 - http://www.videolan.org/x264.html - options: cabac=1 ref=3 deblock=1:0:0 analyse=0x3:0x113 me=hex subme=7 psy=1 psy_rd=1.00:0.00 mixed_ref=1 me_range=16 chroma_me=1 trellis=1 8x8dct=1 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=-2 threads=6 lookahead_threads=1 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=3 b_pyramid=2 b_adapt=1 b_bias=0 direct=1 weightb=1 open_gop=0 weightp=2 keyint=250 keyint_min=24 scenecut=40 intra_refresh=0 rc_lookahead=40 rc=crf mbtree=1 crf=23.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=1:1.00
+[2019-02-14 15:41:52 464 ERROR] [com.inrevo.model.StreamGobblerForError] Output #0, flv, to 'rtmp://localhost:1901/hls/monitor1':
+[2019-02-14 15:41:52 464 ERROR] [com.inrevo.model.StreamGobblerForError]   Metadata:
+[2019-02-14 15:41:52 464 ERROR] [com.inrevo.model.StreamGobblerForError]     title           : BigBuckBunny_175k.mov
+[2019-02-14 15:41:52 464 ERROR] [com.inrevo.model.StreamGobblerForError]     encoder         : Lavf58.26.100
+[2019-02-14 15:41:52 464 ERROR] [com.inrevo.model.StreamGobblerForError]     Stream #0:0: Video: h264 (libx264) ([7][0][0][0] / 0x0007), yuv420p, 600x480, q=-1--1, 24 fps, 1k tbn, 24 tbc
+[2019-02-14 15:41:52 464 ERROR] [com.inrevo.model.StreamGobblerForError]     Metadata:
+[2019-02-14 15:41:52 464 ERROR] [com.inrevo.model.StreamGobblerForError]       encoder         : Lavc58.44.100 libx264
+[2019-02-14 15:41:52 464 ERROR] [com.inrevo.model.StreamGobblerForError]     Side data:
+[2019-02-14 15:41:52 464 ERROR] [com.inrevo.model.StreamGobblerForError]       cpb: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: -1
+[2019-02-14 15:41:52 464 ERROR] [com.inrevo.model.StreamGobblerForError]     Stream #0:1: Audio: mp3 (libmp3lame) ([2][0][0][0] / 0x0002), 48000 Hz, stereo, fltp
+[2019-02-14 15:41:52 464 ERROR] [com.inrevo.model.StreamGobblerForError]     Metadata:
+[2019-02-14 15:41:52 464 ERROR] [com.inrevo.model.StreamGobblerForError]       encoder         : Lavc58.44.100 libmp3lame
+[2019-02-14 15:41:52 950 ERROR] [com.inrevo.model.StreamGobblerForError] frame=   39 fps=0.0 q=0.0 size=       0kB time=00:00:02.07 bitrate=   1.6kbits/s dup=0 drop=5 speed=3.81x    
+[2019-02-14 15:41:53 543 ERROR] [com.inrevo.model.StreamGobblerForError] frame=   54 fps= 52 q=26.0 size=       8kB time=00:00:02.58 bitrate=  24.7kbits/s dup=0 drop=5 speed=2.47x    
+[2019-02-14 15:41:53 950 ERROR] [com.inrevo.model.StreamGobblerForError] frame=   64 fps= 41 q=28.0 size=      20kB time=00:00:03.08 bitrate=  54.2kbits/s dup=0 drop=5 speed=   2x    
+[2019-02-14 15:41:54 459 ERROR] [com.inrevo.model.StreamGobblerForError] frame=   77 fps= 37 q=28.0 size=      46kB time=00:00:03.61 bitrate= 105.3kbits/s dup=0 drop=5 speed=1.76x    
+[2019-02-14 15:41:55 056 ERROR] [com.inrevo.model.StreamGobblerForError] frame=   89 fps= 34 q=28.0 size=      82kB time=00:00:04.14 bitrate= 161.6kbits/s dup=0 drop=5 speed=1.56x    
+[2019-02-14 15:41:55 563 ERROR] [com.inrevo.model.StreamGobblerForError] frame=  101 fps= 32 q=28.0 size=     112kB time=00:00:04.67 bitrate= 196.5kbits/s dup=0 drop=5 speed=1.48x    
+[2019-02-14 15:41:56 074 ERROR] [com.inrevo.model.StreamGobblerForError] frame=  115 fps= 31 q=28.0 size=     146kB time=00:00:05.19 bitrate= 230.1kbits/s dup=0 drop=5 speed=1.42x    
+[2019-02-14 15:41:56 586 ERROR] [com.inrevo.model.StreamGobblerForError] frame=  126 fps= 30 q=28.0 size=     175kB time=00:00:05.63 bitrate= 254.3kbits/s dup=0 drop=5 speed=1.35x    
+[2019-02-14 15:41:57 170 ERROR] [com.inrevo.model.StreamGobblerForError] frame=  140 fps= 29 q=28.0 size=     211kB time=00:00:06.27 bitrate= 275.8kbits/s dup=0 drop=5 speed=1.32x    
+[2019-02-14 15:41:57 662 ERROR] [com.inrevo.model.StreamGobblerForError] frame=  152 fps= 29 q=28.0 size=     245kB time=00:00:06.75 bitrate= 296.6kbits/s dup=0 drop=5 speed=1.29x    
+[2019-02-14 15:41:58 174 ERROR] [com.inrevo.model.StreamGobblerForError] frame=  164 fps= 28 q=28.0 size=     275kB time=00:00:07.28 bitrate= 309.3kbits/s dup=0 drop=5 speed=1.26x    
+[2019-02-14 15:41:58 687 ERROR] [com.inrevo.model.StreamGobblerForError] frame=  176 fps= 28 q=28.0 size=     314kB time=00:00:07.71 bitrate= 333.2kbits/s dup=0 drop=5 speed=1.23x    
+[2019-02-14 15:41:59 182 ERROR] [com.inrevo.model.StreamGobblerForError] frame=  188 fps= 28 q=28.0 size=     353kB time=00:00:08.27 bitrate= 349.9kbits/s dup=0 drop=5 speed=1.22x    
+[2019-02-14 15:41:59 781 ERROR] [com.inrevo.model.StreamGobblerForError] frame=  203 fps= 28 q=28.0 size=     391kB time=00:00:08.84 bitrate= 362.1kbits/s dup=0 drop=5 speed=1.21x    
+[2019-02-14 15:42:00 195 ERROR] [com.inrevo.model.StreamGobblerForError] frame=  213 fps= 27 q=28.0 size=     418kB time=00:00:09.30 bitrate= 367.7kbits/s dup=0 drop=5 speed=1.19x    
+[2019-02-14 15:42:00 791 ERROR] [com.inrevo.model.StreamGobblerForError] frame=  227 fps= 27 q=28.0 size=     452kB time=00:00:09.87 bitrate= 375.0kbits/s dup=0 drop=5 speed=1.19x    
+[2019-02-14 15:42:01 231 ERROR] [com.inrevo.model.StreamGobblerForError] frame=  239 fps= 27 q=28.0 size=     495kB time=00:00:10.28 bitrate= 393.9kbits/s dup=0 drop=5 speed=1.17x    
+[2019-02-14 15:42:01 734 ERROR] [com.inrevo.model.StreamGobblerForError] frame=  251 fps= 27 q=28.0 size=     528kB time=00:00:10.76 bitrate= 401.7kbits/s dup=0 drop=5 speed=1.15x    
+[2019-02-14 15:42:02 254 ERROR] [com.inrevo.model.StreamGobblerForError] frame=  262 fps= 27 q=28.0 size=     563kB time=00:00:11.31 bitrate= 407.9kbits/s dup=0 drop=5 speed=1.15x    
+[2019-02-14 15:42:02 768 ERROR] [com.inrevo.model.StreamGobblerForError] frame=  274 fps= 26 q=28.0 size=     604kB time=00:00:11.79 bitrate= 419.6kbits/s dup=0 drop=5 speed=1.14x    
+[2019-02-14 15:42:03 289 ERROR] [com.inrevo.model.StreamGobblerForError] frame=  285 fps= 26 q=28.0 size=     648kB time=00:00:12.30 bitrate= 431.4kbits/s dup=0 drop=5 speed=1.13x    
+[2019-02-14 15:42:03 830 ERROR] [com.inrevo.model.StreamGobblerForError] frame=  298 fps= 26 q=28.0 size=     694kB time=00:00:12.83 bitrate= 443.1kbits/s dup=0 drop=5 speed=1.12x    
+[2019-02-14 15:42:04 373 ERROR] [com.inrevo.model.StreamGobblerForError] frame=  313 fps= 26 q=28.0 size=     732kB time=00:00:13.45 bitrate= 445.4kbits/s dup=0 drop=5 speed=1.12x    
+[2019-02-14 15:42:04 904 ERROR] [com.inrevo.model.StreamGobblerForError] frame=  325 fps= 26 q=28.0 size=     773kB time=00:00:13.95 bitrate= 453.8kbits/s dup=0 drop=5 speed=1.12x    
+[2019-02-14 15:42:05 399 ERROR] [com.inrevo.model.StreamGobblerForError] frame=  339 fps= 26 q=28.0 size=     851kB time=00:00:14.53 bitrate= 479.7kbits/s dup=0 drop=5 speed=1.12x    
+[2019-02-14 15:42:05 904 ERROR] [com.inrevo.model.StreamGobblerForError] frame=  349 fps= 26 q=28.0 size=     891kB time=00:00:14.96 bitrate= 488.0kbits/s dup=0 drop=5 speed=1.11x    
+[2019-02-14 15:42:06 405 ERROR] [com.inrevo.model.StreamGobblerForError] frame=  361 fps= 26 q=28.0 size=     933kB time=00:00:15.49 bitrate= 493.5kbits/s dup=0 drop=5 speed=1.11x    
+[2019-02-14 15:42:06 905 ERROR] [com.inrevo.model.StreamGobblerForError] frame=  375 fps= 26 q=28.0 size=     985kB time=00:00:16.04 bitrate= 503.0kbits/s dup=0 drop=5 speed=1.11x    
+[2019-02-14 15:42:07 409 ERROR] [com.inrevo.model.StreamGobblerForError] frame=  385 fps= 26 q=28.0 size=    1037kB time=00:00:16.50 bitrate= 515.0kbits/s dup=0 drop=5 speed= 1.1x    
+[2019-02-14 15:42:07 923 ERROR] [com.inrevo.model.StreamGobblerForError] frame=  397 fps= 26 q=28.0 size=    1073kB time=00:00:16.98 bitrate= 517.4kbits/s dup=0 drop=5 speed=1.09x    
+[2019-02-14 15:42:08 472 ERROR] [com.inrevo.model.StreamGobblerForError] frame=  402 fps= 25 q=28.0 size=    1088kB time=00:00:17.17 bitrate= 518.9kbits/s dup=0 drop=5 speed=1.07x    
+[2019-02-14 15:42:09 037 ERROR] [com.inrevo.model.StreamGobblerForError] frame=  424 fps= 26 q=28.0 size=    1156kB time=00:00:18.08 bitrate= 523.5kbits/s dup=0 drop=5 speed=1.09x    
+[2019-02-14 15:42:09 537 ERROR] [com.inrevo.model.StreamGobblerForError] frame=  437 fps= 26 q=28.0 size=    1180kB time=00:00:18.61 bitrate= 519.4kbits/s dup=0 drop=5 speed=1.09x    
+[2019-02-14 15:42:10 049 ERROR] [com.inrevo.model.StreamGobblerForError] frame=  449 fps= 25 q=28.0 size=    1200kB time=00:00:19.14 bitrate= 513.7kbits/s dup=0 drop=5 speed=1.08x    
+[2019-02-14 15:42:10 562 ERROR] [com.inrevo.model.StreamGobblerForError] frame=  461 fps= 25 q=28.0 size=    1218kB time=00:00:19.64 bitrate= 507.7kbits/s dup=0 drop=5 speed=1.08x    
+[2019-02-14 15:42:11 107 ERROR] [com.inrevo.model.StreamGobblerForError] frame=  474 fps= 25 q=28.0 size=    1254kB time=00:00:20.15 bitrate= 509.9kbits/s dup=0 drop=5 speed=1.08x    
+[2019-02-14 15:42:11 633 ERROR] [com.inrevo.model.StreamGobblerForError] frame=  488 fps= 25 q=28.0 size=    1287kB time=00:00:20.72 bitrate= 508.9kbits/s dup=0 drop=5 speed=1.08x    
+[2019-02-14 15:42:12 168 ERROR] [com.inrevo.model.StreamGobblerForError] frame=  500 fps= 25 q=28.0 size=    1305kB time=00:00:21.27 bitrate= 502.3kbits/s dup=0 drop=5 speed=1.08x    
+[2019-02-14 15:42:12 758 ERROR] [com.inrevo.model.StreamGobblerForError] frame=  509 fps= 25 q=28.0 size=    1314kB time=00:00:21.66 bitrate= 497.0kbits/s dup=0 drop=5 speed=1.07x    
+[2019-02-14 15:42:13 215 ERROR] [com.inrevo.model.StreamGobblerForError] frame=  523 fps= 25 q=28.0 size=    1346kB time=00:00:22.23 bitrate= 495.7kbits/s dup=0 drop=5 speed=1.07x    
+[2019-02-14 15:42:13 712 ERROR] [com.inrevo.model.StreamGobblerForError] frame=  536 fps= 25 q=28.0 size=    1387kB time=00:00:22.76 bitrate= 499.1kbits/s dup=0 drop=5 speed=1.07x    
+[2019-02-14 15:42:14 350 ERROR] [com.inrevo.model.StreamGobblerForError] frame=  551 fps= 25 q=28.0 size=    1431kB time=00:00:23.39 bitrate= 501.3kbits/s dup=0 drop=5 speed=1.07x    
+[2019-02-14 15:42:14 841 ERROR] [com.inrevo.model.StreamGobblerForError] frame=  563 fps= 25 q=28.0 size=    1444kB time=00:00:23.87 bitrate= 495.6kbits/s dup=0 drop=5 speed=1.06x    
+[2019-02-14 15:42:15 399 ERROR] [com.inrevo.model.StreamGobblerForError] frame=  578 fps= 25 q=28.0 size=    1471kB time=00:00:24.49 bitrate= 491.8kbits/s dup=0 drop=5 speed=1.07x    
+[2019-02-14 15:42:15 987 ERROR] [com.inrevo.model.StreamGobblerForError] frame=  592 fps= 25 q=25.0 size=    1483kB time=00:00:25.09 bitrate= 484.1kbits/s dup=0 drop=5 speed=1.06x    
+[2019-02-14 15:42:16 497 ERROR] [com.inrevo.model.StreamGobblerForError] frame=  604 fps= 25 q=28.0 size=    1548kB time=00:00:25.59 bitrate= 495.3kbits/s dup=0 drop=5 speed=1.06x    
+[2019-02-14 15:42:16 989 ERROR] [com.inrevo.model.StreamGobblerForError] frame=  615 fps= 25 q=28.0 size=    1585kB time=00:00:26.05 bitrate= 498.2kbits/s dup=0 drop=5 speed=1.06x    
+[2019-02-14 15:42:17 549 ERROR] [com.inrevo.model.StreamGobblerForError] frame=  629 fps= 25 q=28.0 size=    1626kB time=00:00:26.65 bitrate= 499.9kbits/s dup=0 drop=5 speed=1.06x    
+[2019-02-14 15:42:18 081 ERROR] [com.inrevo.model.StreamGobblerForError] frame=  643 fps= 25 q=28.0 size=    1672kB time=00:00:27.13 bitrate= 504.7kbits/s dup=0 drop=5 speed=1.06x    
+[2019-02-14 15:42:18 604 ERROR] [com.inrevo.model.StreamGobblerForError] frame=  654 fps= 25 q=28.0 size=    1726kB time=00:00:27.63 bitrate= 511.6kbits/s dup=0 drop=5 speed=1.06x    
+[2019-02-14 15:42:19 126 ERROR] [com.inrevo.model.StreamGobblerForError] frame=  666 fps= 25 q=28.0 size=    1782kB time=00:00:28.21 bitrate= 517.3kbits/s dup=0 drop=5 speed=1.06x    
+[2019-02-14 15:42:19 662 ERROR] [com.inrevo.model.StreamGobblerForError] frame=  682 fps= 25 q=28.0 size=    1847kB time=00:00:28.74 bitrate= 526.5kbits/s dup=0 drop=5 speed=1.05x    
+[2019-02-14 15:42:20 155 ERROR] [com.inrevo.model.StreamGobblerForError] frame=  692 fps= 25 q=28.0 size=    1892kB time=00:00:29.27 bitrate= 529.5kbits/s dup=0 drop=5 speed=1.05x    
+[2019-02-14 15:42:20 656 ERROR] [com.inrevo.model.StreamGobblerForError] frame=  706 fps= 25 q=28.0 size=    1934kB time=00:00:29.75 bitrate= 532.4kbits/s dup=0 drop=5 speed=1.05x    
+[2019-02-14 15:42:21 211 ERROR] [com.inrevo.model.StreamGobblerForError] frame=  718 fps= 25 q=28.0 size=    1967kB time=00:00:30.32 bitrate= 531.3kbits/s dup=0 drop=5 speed=1.05x    
+[2019-02-14 15:42:21 741 ERROR] [com.inrevo.model.StreamGobblerForError] frame=  729 fps= 25 q=28.0 size=    1992kB time=00:00:30.80 bitrate= 529.7kbits/s dup=0 drop=5 speed=1.05x    
+[2019-02-14 15:42:22 272 ERROR] [com.inrevo.model.StreamGobblerForError] frame=  740 fps= 25 q=28.0 size=    2045kB time=00:00:31.31 bitrate= 535.1kbits/s dup=0 drop=5 speed=1.05x    
+[2019-02-14 15:42:22 804 ERROR] [com.inrevo.model.StreamGobblerForError] frame=  756 fps= 25 q=28.0 size=    2099kB time=00:00:31.88 bitrate= 539.3kbits/s dup=0 drop=5 speed=1.05x    
+[2019-02-14 15:42:23 329 ERROR] [com.inrevo.model.StreamGobblerForError] frame=  768 fps= 25 q=28.0 size=    2143kB time=00:00:32.43 bitrate= 541.1kbits/s dup=0 drop=5 speed=1.05x    
+[2019-02-14 15:42:23 849 ERROR] [com.inrevo.model.StreamGobblerForError] frame=  780 fps= 25 q=28.0 size=    2180kB time=00:00:32.94 bitrate= 542.1kbits/s dup=0 drop=5 speed=1.05x    
+[2019-02-14 15:42:24 410 ERROR] [com.inrevo.model.StreamGobblerForError] frame=  793 fps= 25 q=28.0 size=    2227kB time=00:00:33.44 bitrate= 545.5kbits/s dup=0 drop=5 speed=1.04x    
+[2019-02-14 15:42:24 913 ERROR] [com.inrevo.model.StreamGobblerForError] frame=  806 fps= 25 q=28.0 size=    2280kB time=00:00:34.04 bitrate= 548.6kbits/s dup=0 drop=5 speed=1.05x    
+[2019-02-14 15:42:25 415 ERROR] [com.inrevo.model.StreamGobblerForError] frame=  820 fps= 25 q=28.0 size=    2344kB time=00:00:34.55 bitrate= 555.9kbits/s dup=0 drop=5 speed=1.05x    
+[2019-02-14 15:42:25 918 ERROR] [com.inrevo.model.StreamGobblerForError] frame=  830 fps= 25 q=28.0 size=    2390kB time=00:00:35.03 bitrate= 558.9kbits/s dup=0 drop=5 speed=1.05x    
+[2019-02-14 15:42:26 452 ERROR] [com.inrevo.model.StreamGobblerForError] frame=  843 fps= 25 q=28.0 size=    2458kB time=00:00:35.51 bitrate= 567.1kbits/s dup=0 drop=5 speed=1.04x    
+[2019-02-14 15:42:27 002 ERROR] [com.inrevo.model.StreamGobblerForError] frame=  854 fps= 25 q=28.0 size=    2506kB time=00:00:35.99 bitrate= 570.5kbits/s dup=0 drop=5 speed=1.04x    
+[2019-02-14 15:42:27 524 ERROR] [com.inrevo.model.StreamGobblerForError] frame=  869 fps= 25 q=28.0 size=    2545kB time=00:00:36.63 bitrate= 569.0kbits/s dup=0 drop=5 speed=1.04x    
+[2019-02-14 15:42:28 023 ERROR] [com.inrevo.model.StreamGobblerForError] frame=  881 fps= 25 q=28.0 size=    2571kB time=00:00:37.11 bitrate= 567.4kbits/s dup=0 drop=5 speed=1.04x    
+[2019-02-14 15:42:28 534 ERROR] [com.inrevo.model.StreamGobblerForError] frame=  893 fps= 25 q=28.0 size=    2610kB time=00:00:37.62 bitrate= 568.4kbits/s dup=0 drop=5 speed=1.04x    
+[2019-02-14 15:42:29 038 ERROR] [com.inrevo.model.StreamGobblerForError] frame=  905 fps= 25 q=28.0 size=    2635kB time=00:00:38.15 bitrate= 565.8kbits/s dup=0 drop=5 speed=1.04x    
+[2019-02-14 15:42:29 546 ERROR] [com.inrevo.model.StreamGobblerForError] frame=  917 fps= 25 q=28.0 size=    2662kB time=00:00:38.67 bitrate= 563.7kbits/s dup=0 drop=5 speed=1.04x    
+[2019-02-14 15:42:30 049 ERROR] [com.inrevo.model.StreamGobblerForError] frame=  929 fps= 25 q=28.0 size=    2687kB time=00:00:39.15 bitrate= 562.1kbits/s dup=0 drop=5 speed=1.04x    
+[2019-02-14 15:42:30 557 ERROR] [com.inrevo.model.StreamGobblerForError] frame=  941 fps= 25 q=28.0 size=    2724kB time=00:00:39.63 bitrate= 563.0kbits/s dup=0 drop=5 speed=1.04x    
+[2019-02-14 15:42:31 068 ERROR] [com.inrevo.model.StreamGobblerForError] frame=  955 fps= 25 q=28.0 size=    2750kB time=00:00:40.21 bitrate= 560.3kbits/s dup=0 drop=5 speed=1.04x    
+[2019-02-14 15:42:31 642 ERROR] [com.inrevo.model.StreamGobblerForError] frame=  968 fps= 25 q=28.0 size=    2781kB time=00:00:40.74 bitrate= 559.1kbits/s dup=0 drop=5 speed=1.04x    
+[2019-02-14 15:42:32 189 ERROR] [com.inrevo.model.StreamGobblerForError] frame=  981 fps= 25 q=28.0 size=    2818kB time=00:00:41.27 bitrate= 559.4kbits/s dup=0 drop=5 speed=1.04x    
+[2019-02-14 15:42:32 692 ERROR] [com.inrevo.model.StreamGobblerForError] frame=  993 fps= 25 q=28.0 size=    2845kB time=00:00:41.79 bitrate= 557.6kbits/s dup=0 drop=5 speed=1.04x    
+[2019-02-14 15:42:33 192 ERROR] [com.inrevo.model.StreamGobblerForError] frame= 1007 fps= 25 q=28.0 size=    2871kB time=00:00:42.35 bitrate= 555.3kbits/s dup=0 drop=5 speed=1.04x    
+[2019-02-14 15:42:33 701 ERROR] [com.inrevo.model.StreamGobblerForError] frame= 1017 fps= 25 q=28.0 size=    2894kB time=00:00:42.85 bitrate= 553.3kbits/s dup=0 drop=5 speed=1.04x    
+[2019-02-14 15:42:34 209 ERROR] [com.inrevo.model.StreamGobblerForError] frame= 1027 fps= 25 q=28.0 size=    2911kB time=00:00:43.26 bitrate= 551.2kbits/s dup=0 drop=5 speed=1.04x    
+[2019-02-14 15:42:34 729 ERROR] [com.inrevo.model.StreamGobblerForError] frame= 1041 fps= 25 q=28.0 size=    2952kB time=00:00:43.79 bitrate= 552.2kbits/s dup=0 drop=5 speed=1.03x    
+[2019-02-14 15:42:35 251 ERROR] [com.inrevo.model.StreamGobblerForError] frame= 1053 fps= 25 q=28.0 size=    2979kB time=00:00:44.31 bitrate= 550.6kbits/s dup=0 drop=5 speed=1.03x    
+[2019-02-14 15:42:35 798 ERROR] [com.inrevo.model.StreamGobblerForError] frame= 1068 fps= 25 q=28.0 size=    3009kB time=00:00:44.91 bitrate= 548.8kbits/s dup=0 drop=5 speed=1.04x    
+[2019-02-14 15:42:36 307 ERROR] [com.inrevo.model.StreamGobblerForError] frame= 1080 fps= 25 q=28.0 size=    3043kB time=00:00:45.44 bitrate= 548.6kbits/s dup=0 drop=5 speed=1.04x    
+[2019-02-14 15:42:36 811 ERROR] [com.inrevo.model.StreamGobblerForError] frame= 1092 fps= 25 q=28.0 size=    3083kB time=00:00:45.97 bitrate= 549.3kbits/s dup=0 drop=5 speed=1.04x    
+[2019-02-14 15:42:37 323 ERROR] [com.inrevo.model.StreamGobblerForError] frame= 1104 fps= 25 q=28.0 size=    3113kB time=00:00:46.43 bitrate= 549.3kbits/s dup=0 drop=5 speed=1.03x    
+[2019-02-14 15:42:37 813 ERROR] [com.inrevo.model.StreamGobblerForError] frame= 1116 fps= 25 q=28.0 size=    3145kB time=00:00:46.93 bitrate= 548.9kbits/s dup=0 drop=5 speed=1.03x    
+[2019-02-14 15:42:38 315 ERROR] [com.inrevo.model.StreamGobblerForError] frame= 1128 fps= 25 q=28.0 size=    3182kB time=00:00:47.41 bitrate= 549.8kbits/s dup=0 drop=5 speed=1.03x    
+[2019-02-14 15:42:38 825 ERROR] [com.inrevo.model.StreamGobblerForError] frame= 1140 fps= 25 q=28.0 size=    3213kB time=00:00:47.94 bitrate= 549.0kbits/s dup=0 drop=5 speed=1.03x    
+[2019-02-14 15:42:39 368 ERROR] [com.inrevo.model.StreamGobblerForError] frame= 1154 fps= 25 q=28.0 size=    3242kB time=00:00:48.37 bitrate= 549.1kbits/s dup=0 drop=5 speed=1.03x    
+[2019-02-14 15:42:39 859 ERROR] [com.inrevo.model.StreamGobblerForError] frame= 1165 fps= 25 q=28.0 size=    3278kB time=00:00:48.99 bitrate= 548.0kbits/s dup=0 drop=5 speed=1.03x    
+[2019-02-14 15:42:40 359 ERROR] [com.inrevo.model.StreamGobblerForError] frame= 1177 fps= 25 q=28.0 size=    3308kB time=00:00:49.43 bitrate= 548.2kbits/s dup=0 drop=5 speed=1.03x    
+[2019-02-14 15:42:40 859 ERROR] [com.inrevo.model.StreamGobblerForError] frame= 1189 fps= 25 q=28.0 size=    3368kB time=00:00:49.95 bitrate= 552.3kbits/s dup=0 drop=5 speed=1.03x    
+[2019-02-14 15:42:41 371 ERROR] [com.inrevo.model.StreamGobblerForError] frame= 1201 fps= 25 q=28.0 size=    3400kB time=00:00:50.48 bitrate= 551.7kbits/s dup=0 drop=5 speed=1.03x    
+[2019-02-14 15:42:41 873 ERROR] [com.inrevo.model.StreamGobblerForError] frame= 1213 fps= 25 q=28.0 size=    3450kB time=00:00:51.01 bitrate= 553.9kbits/s dup=0 drop=5 speed=1.03x    
+[2019-02-14 15:42:42 373 ERROR] [com.inrevo.model.StreamGobblerForError] frame= 1225 fps= 25 q=28.0 size=    3512kB time=00:00:51.51 bitrate= 558.4kbits/s dup=0 drop=5 speed=1.03x    
+[2019-02-14 15:42:42 961 ERROR] [com.inrevo.model.StreamGobblerForError] frame= 1240 fps= 25 q=28.0 size=    3585kB time=00:00:52.07 bitrate= 564.0kbits/s dup=0 drop=5 speed=1.03x    
+[2019-02-14 15:42:43 471 ERROR] [com.inrevo.model.StreamGobblerForError] frame= 1252 fps= 25 q=28.0 size=    3635kB time=00:00:52.59 bitrate= 566.1kbits/s dup=0 drop=5 speed=1.03x    
+[2019-02-14 15:42:43 974 ERROR] [com.inrevo.model.StreamGobblerForError] frame= 1265 fps= 25 q=28.0 size=    3680kB time=00:00:53.05 bitrate= 568.2kbits/s dup=0 drop=5 speed=1.03x    
+[2019-02-14 15:42:44 466 ERROR] [com.inrevo.model.StreamGobblerForError] frame= 1276 fps= 25 q=28.0 size=    3718kB time=00:00:53.58 bitrate= 568.4kbits/s dup=0 drop=5 speed=1.03x    
+[2019-02-14 15:42:44 990 ERROR] [com.inrevo.model.StreamGobblerForError] frame= 1290 fps= 25 q=28.0 size=    3746kB time=00:00:54.03 bitrate= 567.8kbits/s dup=0 drop=5 speed=1.03x    
+[2019-02-14 15:42:45 500 ERROR] [com.inrevo.model.StreamGobblerForError] frame= 1300 fps= 24 q=28.0 size=    3769kB time=00:00:54.59 bitrate= 565.6kbits/s dup=0 drop=5 speed=1.03x    
+[2019-02-14 15:42:46 003 ERROR] [com.inrevo.model.StreamGobblerForError] frame= 1315 fps= 25 q=28.0 size=    3797kB time=00:00:55.14 bitrate= 564.1kbits/s dup=0 drop=5 speed=1.03x    
+[2019-02-14 15:42:46 513 ERROR] [com.inrevo.model.StreamGobblerForError] frame= 1324 fps= 24 q=28.0 size=    3841kB time=00:00:55.59 bitrate= 566.0kbits/s dup=0 drop=5 speed=1.03x    
+[2019-02-14 15:42:47 013 ERROR] [com.inrevo.model.StreamGobblerForError] frame= 1338 fps= 25 q=28.0 size=    3864kB time=00:00:56.15 bitrate= 563.7kbits/s dup=0 drop=5 speed=1.03x    
+[2019-02-14 15:42:47 547 ERROR] [com.inrevo.model.StreamGobblerForError] frame= 1346 fps= 24 q=28.0 size=    3887kB time=00:00:56.58 bitrate= 562.8kbits/s dup=0 drop=5 speed=1.03x    
+[2019-02-14 17:50:47 116 ERROR] [com.inrevo.model.StreamGobblerForError] ffmpeg version N-92981-g51978aefe8 Copyright (c) 2000-2019 the FFmpeg developers
+[2019-02-14 17:50:47 118 ERROR] [com.inrevo.model.StreamGobblerForError]   built with gcc 8.2.1 (GCC) 20181201
+[2019-02-14 17:50:47 119 ERROR] [com.inrevo.model.StreamGobblerForError]   configuration: --enable-gpl --enable-version3 --enable-sdl2 --enable-fontconfig --enable-gnutls --enable-iconv --enable-libass --enable-libbluray --enable-libfreetype --enable-libmp3lame --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-libopus --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libtheora --enable-libtwolame --enable-libvpx --enable-libwavpack --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libzimg --enable-lzma --enable-zlib --enable-gmp --enable-libvidstab --enable-libvorbis --enable-libvo-amrwbenc --enable-libmysofa --enable-libspeex --enable-libxvid --enable-libaom --enable-libmfx --enable-amf --enable-ffnvcodec --enable-cuvid --enable-d3d11va --enable-nvenc --enable-nvdec --enable-dxva2 --enable-avisynth --enable-libopenmpt
+[2019-02-14 17:50:47 119 ERROR] [com.inrevo.model.StreamGobblerForError]   libavutil      56. 25.100 / 56. 25.100
+[2019-02-14 17:50:47 120 ERROR] [com.inrevo.model.StreamGobblerForError]   libavcodec     58. 44.100 / 58. 44.100
+[2019-02-14 17:50:47 120 ERROR] [com.inrevo.model.StreamGobblerForError]   libavformat    58. 26.100 / 58. 26.100
+[2019-02-14 17:50:47 121 ERROR] [com.inrevo.model.StreamGobblerForError]   libavdevice    58.  6.101 / 58.  6.101
+[2019-02-14 17:50:47 121 ERROR] [com.inrevo.model.StreamGobblerForError]   libavfilter     7. 48.100 /  7. 48.100
+[2019-02-14 17:50:47 121 ERROR] [com.inrevo.model.StreamGobblerForError]   libswscale      5.  4.100 /  5.  4.100
+[2019-02-14 17:50:47 122 ERROR] [com.inrevo.model.StreamGobblerForError]   libswresample   3.  4.100 /  3.  4.100
+[2019-02-14 17:50:47 122 ERROR] [com.inrevo.model.StreamGobblerForError]   libpostproc    55.  4.100 / 55.  4.100
+[2019-02-14 17:50:48 258 ERROR] [com.inrevo.model.StreamGobblerForError] [udp @ 00000000004acf40] 'circular_buffer_size' option was set but it is not supported on this build (pthread support is required)
+[2019-02-14 17:50:48 259 ERROR] [com.inrevo.model.StreamGobblerForError] [udp @ 00000000004bd200] 'circular_buffer_size' option was set but it is not supported on this build (pthread support is required)
+[2019-02-14 17:50:48 744 ERROR] [com.inrevo.model.StreamGobblerForError] [udp @ 00000000004cda80] 'circular_buffer_size' option was set but it is not supported on this build (pthread support is required)
+[2019-02-14 17:50:48 744 ERROR] [com.inrevo.model.StreamGobblerForError] [udp @ 00000000004ddd80] 'circular_buffer_size' option was set but it is not supported on this build (pthread support is required)
